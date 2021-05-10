@@ -1,0 +1,7 @@
+
+<span class="bi" 
+    [ngClass]="{
+        'bi-star-fill' : isSelected,
+        'bi-star' : !isSelected
+    }"
+    (click)="toggleSelected()"></span>
